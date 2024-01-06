@@ -6,6 +6,7 @@ module.exports = {
     './components/**/*.{ts,tsx}',
     './app/**/*.{ts,tsx}',
     './src/**/*.{ts,tsx}',
+    './src/**/*.{html,js,ts,jsx,tsx}',
   ],
   prefix: "",
   theme: {
@@ -17,6 +18,14 @@ module.exports = {
       },
     },
     extend: {
+      colors: {
+        "text-4": "var(--text-4)",
+        "warm-coral-1":"var(--warm-coral-1)",
+        "warm-coral-4":"var(--warm-coral-4)",
+      },
+      boxShadow:{
+        "keyboard-shadow":"var(--keyboard-shadow)"
+      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },
