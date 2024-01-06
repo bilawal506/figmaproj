@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+#Welcome {
+  color: #2f4f4f;
+  font-size: 38px;
+  line-height: 51px;
+  font-family: "Poppins", sans-serif;
+}
+#toptext {
+  color: #2f4f4f;
+  font-size: 16px;
+  line-height: 29px;
+  margin-top: 5px;
+  font-family: "Poppins", sans-serif;
+}
+#link {
+  color: #228b22;
+}
+#timer {
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  border: 0;
+  border-radius: 5px;
+  font-family: "Poppins", sans-serif;
+}
+#HeroSec {
+  background-image: image-set("/HeroBG.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
